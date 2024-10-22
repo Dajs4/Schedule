@@ -1,11 +1,11 @@
 import '../App.css';
 import { Link, BrowserRouter, Route, Routes } from 'react-router-dom';
 import { HomeIcon, MagnifyingGlassIcon ,PlusCircledIcon, CalendarIcon, BarChartIcon } from "@radix-ui/react-icons"
-import Home from './Home';
-import Programar from './Programar';
-import Buscar from './Buscar';
-import Agregar from './Agregar';
-import Informes from './Informes';
+import Home from '../paginas/Home';
+import Programar from '../paginas/Programar';
+import Buscar from '../paginas/Buscar';
+import Agregar from '../paginas/Agregar';
+import Informes from '../paginas/Informes';
 
 export default function NavBar(){
     return (

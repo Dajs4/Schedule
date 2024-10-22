@@ -1,4 +1,4 @@
-import SearchBar from "./SearchBar";
+import SearchBar from "../componentes/SearchBar";
 
 function Buscar() {
     return (
@@ -6,7 +6,6 @@ function Buscar() {
           <section className="contForm">
             <div className="filterBuscar">
               <SearchBar tamaño={"Small"} />
-              
             </div>
           </section>
       </section>

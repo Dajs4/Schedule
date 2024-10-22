@@ -1,5 +1,5 @@
-import Boton from './Boton';
-import DataList from './DataList';
+import Boton from '../componentes/Boton';
+import DataList from '../componentes/DataList';
 
 function Programar() {
   return (

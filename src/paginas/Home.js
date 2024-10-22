@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Cards from "./Cards";
+import Cards from "../componentes/Cards";
 import { MagnifyingGlassIcon, PlusCircledIcon, CalendarIcon, BarChartIcon } from "@radix-ui/react-icons"
 
 function Home() {
