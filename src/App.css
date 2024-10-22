@@ -1,0 +1,225 @@
+/*Declaramos los colores principales de la APP*/
+:root{
+  --colorPrimario : #00324D;
+  --colorPrimarioClaro : rgba(0, 50, 77, 0.9);
+  --colorSecundario: #39A900;
+  --colorBlanco: #fff;
+  --colorNegro: #000;
+}
+
+/*barra de navegacion*/
+header{
+  position: fixed;
+  top: 0;
+
+  height: 100vh;
+  width: 4vw;
+
+  background-color: var(--colorPrimario);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contNavBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.icono{
+  color: var(--colorBlanco);
+  width: 2vw;
+  height: 2vw;
+  
+}
+.Link{
+  text-decoration: none;
+}
+
+/*Contenedor Formularios*/
+.contForm{
+  height: 100vh;
+  width: 22vw;
+
+  background-color: var(--colorPrimarioClaro);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contenido{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*Home(Pagina de Inicio)*/
+.contenido, .contHome{
+  height: 100vh;
+  width: 96vw;
+
+  margin-left: 4vw;
+}
+.contHome{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.descriptionHome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.titleHome{
+  color: var(--colorPrimario);
+  font-size: 5rem;
+  font-weight: 400;
+}
+.textHome{
+  color: var(--colorNegro);
+  max-width: 52vw;
+  text-align: center;
+
+  font-size: 1.3rem;
+}
+
+/*Crads del Home*/
+.cards{
+  width: 83vw;
+  height: 43vh;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5vh;
+}
+.card{
+  background-color: var(--colorPrimario);
+  border-radius: 1rem;
+
+  width: 40vw;
+  height: 19vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cardIcon{
+  height: 10vh;
+  width: 10vh;
+
+  color: var(--colorBlanco);
+}
+.cardCont{
+  width: 28vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.cardtext, .cardTitle{
+  font-size: 1rem;
+  color: #fff;
+}
+.cardTitle{
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/*Botones Formularios*/
+.boton, .botonGrande{
+  background-color: var(--colorSecundario);
+  color: var(--colorBlanco);
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  height: 4vh;
+}
+.boton{
+  width: 8vw;
+}
+.botonGrande , .botones{
+  width: 18vw;
+}
+.botones{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+/*Posicionamiento de datalist*/
+.formProgramar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 4vh;
+}
+
+/*daraList*/
+.dataList{
+  width: calc(18vw - 13px);
+  height: 4vh;
+
+  border: 1px solid var(--colorNegro);
+  display: block;
+
+  padding: 0px 10px;
+
+  overflow-y: auto;
+}
+.dataList option {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titleOptions{
+  color: var(--colorNegro);
+  font-weight: 700;
+  position: absolute;
+  margin-top: 0.8vh;
+}
+/*Contenido Programar*/
+.contProgramar{
+  position: absolute;
+  left: 27vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 68vw;
+  height: 90vh;
+}
+.headerContProgramar{
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.schedule{
+  width: 68vw;
+  height: 84vh;
+  border: 1px solid var(--colorNegro);
+  text-align: center;
+}
+
+/*Pagina Buscar*/
