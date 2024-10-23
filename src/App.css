@@ -6,6 +6,49 @@
   --colorBlanco: #fff;
   --colorNegro: #000;
 }
+/*Login*/
+.login{
+  height: 100vh;
+  width: 100vw;
+
+  background-color: var(--colorSecundario);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contFormLogin, .contLogSena{
+  width: 45vw;
+  height: 86vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contFormLogin{
+  background-color: var(--colorBlanco);
+
+  border-radius: 10vh 0vh 0vh 10vh;
+}
+
+.logoSena{
+  width: 20vw;
+  height: 20vw;
+}
+
+.textLogoSena{
+  font-size: 2.5rem;
+  color: var(--colorBlanco);
+
+  font-weight: 600;
+
+  text-align: center;
+
+  max-width: 20vw;
+}
 
 /*barra de navegacion*/
 header{

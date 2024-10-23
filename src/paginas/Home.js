@@ -3,10 +3,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Cards from "../componentes/Cards";
-import { MagnifyingGlassIcon, PlusCircledIcon, CalendarIcon, BarChartIcon } from "@radix-ui/react-icons"
+import NavBar from "../componentes/NavBar";
+import { PlusCircledIcon, CalendarIcon, BarChartIcon } from "@radix-ui/react-icons"
 
 function Home() {
     return (
+      <>
+        <NavBar />
         <section className='contHome'>
             <div className="descriptionHome">
               <div className="titleHome">Schedule</div>
@@ -23,16 +26,6 @@ function Home() {
                       titulo={"Programación de Horarios"}
                       text={"En esta página podrás programar o editar los horarios para las fichas y los instructores, asignando sus debidas competencias, resultados de aprendizaje, etc."}
                   />
-                </Link>
-                  
-
-                <Link to='/Buscar' className="Link">
-                  <Cards 
-                        iconCard={MagnifyingGlassIcon}
-                        iconClass={"cardIcon"}
-                        titulo={"Consultar Horarios"}
-                        text={"Podrás visualizar y descargar los horarios ya programados."}
-                    />
                 </Link>
 
                 <Link to='/Agregar' className="Link">
@@ -55,6 +48,7 @@ function Home() {
 
             </div>
         </section>
+      </>
     )
 }
 

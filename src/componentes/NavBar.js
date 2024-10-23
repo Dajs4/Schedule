@@ -1,16 +1,10 @@
 import '../App.css';
-import { Link, BrowserRouter, Route, Routes } from 'react-router-dom';
-import { HomeIcon, MagnifyingGlassIcon ,PlusCircledIcon, CalendarIcon, BarChartIcon } from "@radix-ui/react-icons"
-import Home from '../paginas/Home';
-import Programar from '../paginas/Programar';
-import Buscar from '../paginas/Buscar';
-import Agregar from '../paginas/Agregar';
-import Informes from '../paginas/Informes';
+import { Link } from 'react-router-dom';
+import { HomeIcon,PlusCircledIcon, CalendarIcon, BarChartIcon } from "@radix-ui/react-icons"
+
 
 export default function NavBar(){
     return (
-        <BrowserRouter>
-    
           <header>
             <div className='contNavBar'>
 
@@ -20,10 +14,6 @@ export default function NavBar(){
 
                 <Link to='/Horarios'>
                     <CalendarIcon className='icono'/>
-                </Link>
-
-                <Link to='/Buscar'>
-                <MagnifyingGlassIcon className='icono'/>
                 </Link>
 
                 <Link to='/Agregar'>
@@ -36,15 +26,5 @@ export default function NavBar(){
             </div>
             
           </header>
-    
-          <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path='/Horarios' element={<Programar />}></Route>
-            <Route path='/Buscar' element={<Buscar />}></Route>
-            <Route path='/Agregar' element={<Agregar />}></Route>
-            <Route path='/Informes' element={<Informes />}></Route>
-          </Routes>
-          
-        </BrowserRouter>
     )  
 }
