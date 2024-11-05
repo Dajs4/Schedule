@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 import Cards from "../componentes/Cards";
 import NavBar from "../componentes/NavBar";
-import { PlusCircledIcon, CalendarIcon, BarChartIcon } from "@radix-ui/react-icons"
+import { PlusCircledIcon, CalendarIcon, BarChartIcon } from "@radix-ui/react-icons";
+import '../stylesheet/Home.css'
 
 function Home() {
     return (

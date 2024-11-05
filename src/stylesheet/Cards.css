@@ -1,0 +1,41 @@
+/*Crads del Home*/
+.cards{
+    width: 83vw;
+    height: 43vh;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vh;
+  }
+  .card{
+    background-color: var(--colorPrimario);
+    border-radius: 1rem;
+  
+    width: 40vw;
+    height: 19vh;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .cardIcon{
+    height: 10vh;
+    width: 10vh;
+  
+    color: var(--colorBlanco);
+  }
+  .cardCont{
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .cardtext, .cardTitle{
+    font-size: 1rem;
+    color: #fff;
+  }
+  .cardTitle{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }

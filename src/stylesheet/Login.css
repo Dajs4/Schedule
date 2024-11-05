@@ -1,0 +1,82 @@
+/*Login*/
+.login{
+    height: 100vh;
+    width: 100vw;
+  
+    background-color: var(--colorSecundario);
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .contFormLogin, .contLogSena{
+    width: 40vw;
+    height: 86vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contFormLogin{
+    background-color: var(--colorBlancoConOpacidad);
+  
+    border-radius: 10vh 0vh 0vh 10vh;
+  }
+  
+  .formLogin{
+    height: 60vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .botonLogin{
+    background-color: var(--colorSecundario);
+    color: var(--colorBlanco);
+  
+    border: none;
+    padding: 10px 30px;
+    border-radius: 7px;
+  }
+  .logoSena{
+    width: 20vw;
+    height: 20vw;
+    background-image: url(../img/logo-sena-negro-svg-2022.svg);
+    background-size: cover;
+    background-position: center;
+  
+    margin-bottom: 4vh;
+  }
+  
+  .textLogoSena{
+    font-size: 2.5rem;
+    color: var(--colorBlanco);
+    font-weight: 600;
+    text-align: center;
+    max-width: 20vw;
+  
+    text-shadow: 0px 5px 5px var(--colorNegroConOpacidad);
+  }
+  .inputTextLogin{
+    display: block;
+    min-width: 18vw;
+    max-width: 20vw;
+  
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 20px;
+  
+    border: none;
+    border-bottom: 1px solid var(--colorNegro);
+  }
+  
+  .textFormLogin{
+    margin: 0;
+    color: var(--colorPrimario);
+    font-size: 5rem;
+  }

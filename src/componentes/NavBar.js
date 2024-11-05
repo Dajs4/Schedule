@@ -1,6 +1,7 @@
 import '../App.css';
 import { Link } from 'react-router-dom';
-import { HomeIcon,PlusCircledIcon, CalendarIcon, BarChartIcon } from "@radix-ui/react-icons"
+import { HomeIcon,PlusCircledIcon, CalendarIcon, BarChartIcon } from "@radix-ui/react-icons";
+import '../stylesheet/NavBar.css';
 
 
 export default function NavBar(){
@@ -8,20 +9,20 @@ export default function NavBar(){
           <header>
             <div className='contNavBar'>
 
-                <Link to='/'>
-                    <HomeIcon className='icono'/>
+                <Link to='/Inicio'>
+                    <HomeIcon className='icono' />
                 </Link>
 
                 <Link to='/Horarios'>
-                    <CalendarIcon className='icono'/>
+                    <CalendarIcon className='icono' />
                 </Link>
 
                 <Link to='/Agregar'>
-                <PlusCircledIcon className='icono'/>
+                    <PlusCircledIcon className='icono' />
                 </Link>
 
                 <Link to='/Informes'>
-                <BarChartIcon className='icono'/>
+                    <BarChartIcon className='icono' />
                 </Link>
             </div>
             

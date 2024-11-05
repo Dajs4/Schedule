@@ -1,0 +1,27 @@
+/*Botones Formularios*/
+.boton, .botonGrande{
+    background-color: var(--colorSecundario);
+    color: var(--colorBlanco);
+    font-weight: 700;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border: none;
+    height: 4vh;
+
+    cursor: pointer;
+  }
+  .boton{
+    width: 8vw;
+  }
+  .botonGrande , .botones{
+    width: 18vw;
+  }
+  .botones{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }

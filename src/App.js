@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Login from './paginas/Login';
+import Login from './paginas/Login2';
 import Home from './paginas/Home';
 import Programar from './paginas/Programar';
 import Agregar from './paginas/Agregar';

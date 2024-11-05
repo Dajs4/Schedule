@@ -1,0 +1,29 @@
+/*dataList*/
+.dataList{
+    box-sizing: border-box;
+    width: 18vw;
+    height: 4vh;
+  
+    border: 1px solid var(--colorNegro);
+    display: block;
+  
+    padding: 0px 10px;
+  
+    overflow-y: auto;
+  }
+  .dataList option {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titleOptions{
+    color: var(--colorNegro);
+    font-weight: 700;
+    position: absolute;
+    margin-top: 0.8vh;
+  }

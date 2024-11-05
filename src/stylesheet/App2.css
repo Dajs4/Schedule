@@ -1,0 +1,95 @@
+/*Declaramos los colores principales de la APP*/
+:root{
+  --colorPrimario : #00324D;
+  --colorPrimarioClaro : rgba(0, 50, 77, 0.9);
+  --colorSecundario: #39A900;
+  --colorBlanco: #fff;
+  --colorNegro: #000;
+  --colorNegroClaro: rgba(0, 0, 0, .5);
+}
+/*Login*/
+.login{
+  height: 100vh;
+  width: 100vw;
+
+  background-color: var(--colorPrimario);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contFormLogin, .contLogSena{
+  width: 40vw;
+  height: 86vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contFormLogin{
+  background-color: var(--colorBlanco);
+  height: 70vh;
+  width: 30vw;
+  border-radius: 5vh;
+}
+.contLogoSena{
+  width: 25vw;
+  height: 5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoSena{
+  width: 4vw;
+  height: 4vw;
+
+  background-image: url(../img/logo-sena-negro-svg-2022.svg);
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+
+.botonLogin{
+  border-radius: 10px;
+  padding: 10px 40px;
+  background-color: var(--colorPrimario);
+  color: var(--colorBlanco);
+}
+
+.textFormLogin{
+  color: var(--colorPrimario);
+  font-size: 3rem;
+  margin: 0;
+  padding: 0px 1rem;
+}
+
+.inputTextLogin{
+  width: 15vw;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  display: block;
+  margin-top: 3vh;
+
+
+  background-color: #DCDCDC;
+  border: none;
+}
+
+.formLogin{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.selectFormLogin{
+  width: 15vw;
+  box-sizing: border-box;
+  padding: 10px;
+}

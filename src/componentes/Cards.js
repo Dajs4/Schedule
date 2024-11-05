@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheet/Cards.css'
 
 function Cards({ iconCard: Icon, iconClass, titulo, text }) {
     return (

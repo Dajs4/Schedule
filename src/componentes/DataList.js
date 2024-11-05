@@ -1,4 +1,5 @@
 import React from "react";
+import '../stylesheet/DataList.css'
 
 function DataList({nombre}) {
     return (
