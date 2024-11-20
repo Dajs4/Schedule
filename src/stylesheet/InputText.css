@@ -1,0 +1,14 @@
+.inputText{
+    box-sizing: border-box;
+    width: 18vw;
+    height: 4vh;
+  
+    border: 1px solid var(--colorNegro);
+    display: block;
+  
+    padding: 0px 10px;
+  
+    overflow-y: auto;
+    background-color: var(--colorBlanco);
+    color: var(--colorNegro);
+  }

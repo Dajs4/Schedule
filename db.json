@@ -1,0 +1,286 @@
+{
+    "instructores": [
+        {
+            "nombres": "María",
+            "apellidos": "Sánchez",
+            "estado": "Inactivo",
+            "tipo_contrato": "Contrato",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "Lucía",
+            "apellidos": "Díaz",
+            "estado": "Activo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "Ana",
+            "apellidos": "Díaz",
+            "estado": "Activo",
+            "tipo_contrato": "Contrato",
+            "coordinacion": "Industrias Creativas"
+        },
+        {
+            "nombres": "Carlos",
+            "apellidos": "López",
+            "estado": "Activo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Industrias Creativas"
+        },
+        {
+            "nombres": "José",
+            "apellidos": "Sánchez",
+            "estado": "Activo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "María",
+            "apellidos": "Sánchez",
+            "estado": "Inactivo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Industrias Creativas"
+        },
+        {
+            "nombres": "José",
+            "apellidos": "Gómez",
+            "estado": "Inactivo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "Luis",
+            "apellidos": "Vargas",
+            "estado": "Activo",
+            "tipo_contrato": "Contrato",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "Luis",
+            "apellidos": "Díaz",
+            "estado": "Inactivo",
+            "tipo_contrato": "Contrato",
+            "coordinacion": "Industrias Creativas"
+        },
+        {
+            "nombres": "David",
+            "apellidos": "Sánchez",
+            "estado": "Inactivo",
+            "tipo_contrato": "Contrato",
+            "coordinacion": "Industrias Creativas"
+        },
+        {
+            "nombres": "María",
+            "apellidos": "Gómez",
+            "estado": "Inactivo",
+            "tipo_contrato": "Contrato",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "Lucía",
+            "apellidos": "Martínez",
+            "estado": "Inactivo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Industrias Creativas"
+        },
+        {
+            "nombres": "José",
+            "apellidos": "Moreno",
+            "estado": "Activo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "Carmen",
+            "apellidos": "Vargas",
+            "estado": "Activo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "Sara",
+            "apellidos": "Gómez",
+            "estado": "Inactivo",
+            "tipo_contrato": "Contrato",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "Lucía",
+            "apellidos": "Moreno",
+            "estado": "Activo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "Carmen",
+            "apellidos": "Gómez",
+            "estado": "Activo",
+            "tipo_contrato": "Contrato",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "Sara",
+            "apellidos": "Pérez",
+            "estado": "Inactivo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Teleinformatica"
+        },
+        {
+            "nombres": "José",
+            "apellidos": "Ramírez",
+            "estado": "Inactivo",
+            "tipo_contrato": "Planta",
+            "coordinacion": "Industrias Creativas"
+        },
+        {
+            "nombres": "Lucía",
+            "apellidos": "Martínez",
+            "estado": "Activo",
+            "tipo_contrato": "Contrato",
+            "coordinacion": "Teleinformatica"
+        }
+    ],
+    "fichas": [
+        {
+            "ficha": 9446639,
+            "coordinacion": "Teleinformatica",
+            "programa_formacion": "Produccion Multimedia",
+            "jornada": "Tarde",
+            "trimestre": "III"
+        },
+        {
+            "ficha": 8602374,
+            "coordinacion": "Teleinformatica",
+            "programa_formacion": "Analisis y desarrollo de Software",
+            "jornada": "Noche",
+            "trimestre": "II"
+        },
+        {
+            "ficha": 6802717,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Produccion Multimedia",
+            "jornada": "Noche",
+            "trimestre": "III"
+        },
+        {
+            "ficha": 9596781,
+            "coordinacion": "Teleinformatica",
+            "programa_formacion": "Desarrollo de procesos de Mercadeo",
+            "jornada": "Noche",
+            "trimestre": "II"
+        },
+        {
+            "ficha": 6292229,
+            "coordinacion": "Teleinformatica",
+            "programa_formacion": "Produccion Multimedia",
+            "jornada": "Noche",
+            "trimestre": "V"
+        },
+        {
+            "ficha": 5075559,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Analisis y desarrollo de Software",
+            "jornada": "Noche",
+            "trimestre": "VI"
+        },
+        {
+            "ficha": 5024571,
+            "coordinacion": "Teleinformatica",
+            "programa_formacion": "Produccion Multimedia",
+            "jornada": "Mañana",
+            "trimestre": "IV"
+        },
+        {
+            "ficha": 2860117,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Desarrollo de procesos de Mercadeo",
+            "jornada": "Mañana",
+            "trimestre": "V"
+        },
+        {
+            "ficha": 3710342,
+            "coordinacion": "Teleinformatica",
+            "programa_formacion": "Analisis y desarrollo de Software",
+            "jornada": "Mañana",
+            "trimestre": "I"
+        },
+        {
+            "ficha": 4538026,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Desarrollo de procesos de Mercadeo",
+            "jornada": "Mañana",
+            "trimestre": "VII"
+        },
+        {
+            "ficha": 1170763,
+            "coordinacion": "Teleinformatica",
+            "programa_formacion": "Desarrollo de procesos de Mercadeo",
+            "jornada": "Tarde",
+            "trimestre": "V"
+        },
+        {
+            "ficha": 5002862,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Produccion Multimedia",
+            "jornada": "Tarde",
+            "trimestre": "VI"
+        },
+        {
+            "ficha": 3885737,
+            "coordinacion": "Teleinformatica",
+            "programa_formacion": "Elavoracion de Audiovisuales",
+            "jornada": "Tarde",
+            "trimestre": "I"
+        },
+        {
+            "ficha": 8917129,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Produccion Multimedia",
+            "jornada": "Tarde",
+            "trimestre": "IV"
+        },
+        {
+            "ficha": 9194816,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Desarrollo de procesos de Mercadeo",
+            "jornada": "Noche",
+            "trimestre": "III"
+        },
+        {
+            "ficha": 6673350,
+            "coordinacion": "Teleinformatica",
+            "programa_formacion": "Produccion Multimedia",
+            "jornada": "Mañana",
+            "trimestre": "II"
+        },
+        {
+            "ficha": 1141952,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Produccion Multimedia",
+            "jornada": "Mañana",
+            "trimestre": "II"
+        },
+        {
+            "ficha": 5602840,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Elavoracion de Audiovisuales",
+            "jornada": "Mañana",
+            "trimestre": "I"
+        },
+        {
+            "ficha": 7305140,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Elavoracion de Audiovisuales",
+            "jornada": "Mañana",
+            "trimestre": "VII"
+        },
+        {
+            "ficha": 1526761,
+            "coordinacion": "Industrias Creativas",
+            "programa_formacion": "Analisis y desarrollo de Software",
+            "jornada": "Mañana",
+            "trimestre": "VI"
+        }
+    ]
+}

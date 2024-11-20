@@ -1,0 +1,26 @@
+.contAgregar{
+    position: absolute;
+    left: 27vw;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    width: 68vw;
+    height: 90vh;
+
+    border: 1px solid;
+  }
+
+.tab-bar{
+    width: 100%;
+    border-bottom: 1px solid var(--colorNegro);
+}
+.tab-bar button{
+    background-color: transparent;
+    border: none;
+
+    font-size: 1rem;
+
+    cursor: pointer;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import '../stylesheet/DataList.css'
 
-function DataList({nombre}) {
+function DataList({ nombre}) {
     return (
         <>
             <div className="inputWrapper">

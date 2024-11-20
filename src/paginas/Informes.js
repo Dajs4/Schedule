@@ -7,10 +7,16 @@ function Informes() {
         <NavBar />
 
         <section className='contenido'>
-          <h1>Estas en la pagina Informes</h1>
+
+          <section className="contForm">
+          </section>
+
+          <section className='contInformes'>
+          </section>
+
         </section>
       </>
     )
-  }
+}
   
   export default Informes;

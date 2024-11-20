@@ -45,7 +45,7 @@ function Programar() {
             </div>
             
             <div className='schedule'>
-              <Horario titular='ambiente' />
+              <Horario titular='ficha' />
             </div>
 
           </section>

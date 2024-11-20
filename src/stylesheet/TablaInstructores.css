@@ -1,0 +1,31 @@
+.tabla-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabla-instructores {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .tabla-instructores th,
+  .tabla-instructores td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tabla-instructores th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .tabla-instructores tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabla-instructores tr:hover {
+    background-color: #f1f1f1;
+  }

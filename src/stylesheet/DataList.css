@@ -10,16 +10,22 @@
     padding: 0px 10px;
   
     overflow-y: auto;
+    background-color: var(--colorBlanco);
+    color: var(--colorNegro);
   }
+
   .dataList option {
     padding: 5px;
     font-size: 14px;
+  }
+
+  .dataList:focus{
+    border: var(--colorSecundario);
   }
   
   .inputWrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .titleOptions{
     color: var(--colorNegro);
