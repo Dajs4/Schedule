@@ -282,5 +282,77 @@
             "jornada": "Mañana",
             "trimestre": "VI"
         }
-    ]
+    ],
+    "Usuarios" : [
+        {
+          "id" : "1",
+          "nombre": "Juan Pérez",
+          "rol": "Administrador",
+          "numeroDocumento": "123456789",
+          "contraseña": "c93ccd78b2076528346216b3b2f701e6"
+        },
+        {
+            "id" : "2",
+          "nombre": "María López",
+          "rol": "Coordinacion",
+          "numeroDocumento": "987654321",
+          "contraseña": "c93ccd78b2076528346216b3b2f701e6"
+        },
+        {
+            "id" : "3",
+          "nombre": "Carlos Gómez",
+          "rol": "Administrador",
+          "numeroDocumento": "112233445",
+          "contraseña": "c93ccd78b2076528346216b3b2f701e6"
+        },
+        {
+            "id" : "4",
+          "nombre": "Laura Rodríguez",
+          "rol": "Coordinacion",
+          "numeroDocumento": "556677889",
+          "contraseña": "c93ccd78b2076528346216b3b2f701e6"
+        },
+        {
+            "id" : "5",
+          "nombre": "Ana Martínez",
+          "rol": "Administrador",
+          "numeroDocumento": "667788990",
+          "contraseña": "c93ccd78b2076528346216b3b2f701e6"
+        },
+        {
+            "id" : "6",
+          "nombre": "Jorge Ramírez",
+          "rol": "Coordinacion",
+          "numeroDocumento": "101010101",
+          "contraseña": "c93ccd78b2076528346216b3b2f701e6"
+        },
+        {
+            "id" : "7",
+          "nombre": "Marta Torres",
+          "rol": "Administrador",
+          "numeroDocumento": "212121212",
+          "contraseña": "c93ccd78b2076528346216b3b2f701e6"
+        },
+        {
+            "id" : "8",
+          "nombre": "Luis Castillo",
+          "rol": "Coordinacion",
+          "numeroDocumento": "323232323",
+          "contraseña": "c93ccd78b2076528346216b3b2f701e6"
+        },
+        {
+            "id" : "9",
+          "nombre": "Elena Gutiérrez",
+          "rol": "Administrador",
+          "numeroDocumento": "434343434",
+          "contraseña": "c93ccd78b2076528346216b3b2f701e6"
+        },
+        {
+            "id" : "10",
+          "nombre": "Roberto Silva",
+          "rol": "Coordinacion",
+          "numeroDocumento": "545454545",
+          "contraseña": "c93ccd78b2076528346216b3b2f701e6"
+        }
+    ]      
 }

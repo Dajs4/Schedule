@@ -1,5 +1,5 @@
 import React from "react";
-import FormLogin from "../componentes/FormLogin";
+import FormLogin from "../componentes/FormLoginMejorado";
 import '../stylesheet/App2.css'
 
 function Login(){
