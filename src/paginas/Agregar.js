@@ -5,6 +5,7 @@ import TablaInstructores from "../componentes/TablaInstructores";
 import TablaFichas from "../componentes/TablaFichas";
 import SearcBar from "../componentes/SearchBar";
 import "../stylesheet/Agregar.css";
+import ListaComponente from "../componentes/TablaInstructor";
 
 function Agregar() {
   // Estado para controlar la pestaña activa
@@ -38,7 +39,7 @@ function Agregar() {
 
           {/* Renderizado condicional según la pestaña activa */}
           <div className="tab-content">
-            {activeTab === "instructores" && <TablaInstructores />}
+            {activeTab === "instructores" && <ListaComponente />}
             {activeTab === "fichas" && <TablaFichas />}
           </div>
         </section>
