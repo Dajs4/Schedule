@@ -6,6 +6,7 @@ import TablaFichas from "../componentes/TablaFichas";
 import SearcBar from "../componentes/SearchBar";
 import "../stylesheet/Agregar.css";
 import ListaComponente from "../componentes/TablaInstructor";
+import AddInstructorComponent from "../componentes/AddInstructorComponent";
 
 function Agregar() {
   // Estado para controlar la pestaña activa
@@ -17,7 +18,7 @@ function Agregar() {
 
       <section className="contenido">
         <section className="contForm">
-          <FormAgregar />
+          <AddInstructorComponent />
         </section>
 
         <section className="contAgregar">

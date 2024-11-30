@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {Link, useNavigate} from 'react-router-dom';
+import InstructorServices from "../services/InstructorServices";
 
 export const AddInstructorComponent = () => {
 
@@ -11,7 +12,7 @@ export const AddInstructorComponent = () => {
     const saveInstructor = (e) => {
         e.preventDefault();
         const instructor = { firstName, lastName, tipoContrato};
-        InstructorService.createInstructor(instructor).then((response) => {
+        InstructorServices.createInstructor(instructor).then((response) => {
             console.log(response.data);
             navigate('/instructor')
         }).catch((error) => {
@@ -46,3 +47,5 @@ export const AddInstructorComponent = () => {
     )
 
 }
+
+export default AddInstructorComponent;
